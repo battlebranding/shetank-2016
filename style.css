@@ -1,0 +1,215 @@
+/*
+ Theme Name:     SheTank MMXVI
+ Theme URI:      http://battlebranding.com/
+ Description:    Branded Child Theme
+ Author:         Battle Branding
+ Author URI:     http://battlebranding.com
+ Template:       branded
+ Version:        1.0.0
+*/
+
+@import url("../branded/style.css");
+
+@font-face {
+    font-family: 'Choplin Medium';
+    src: url('assets/fonts/choplin/choplin-medium.eot');
+    src: url('assets/fonts/choplin/choplin-medium.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/choplin/choplin-medium.woff2') format('woff2'),
+         url('assets/fonts/choplin/choplin-medium.woff') format('woff'),
+         url('assets/fonts/choplin/choplin-medium.ttf') format('truetype'),
+         url('assets/fonts/choplin/choplin-medium.svg#choplin-medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+	font-family: 'Choplin Medium';
+	font-size: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
+h2.pink {
+	color: #ff3399;
+}
+
+h2.teal {
+	color: #66d9cc;
+}
+
+h2.grey {
+	color: #999999;
+}
+
+h4 {
+	letter-spacing: 1px;
+	font-family: 'Choplin Medium';
+	text-transform: none;
+}
+
+p,
+ul,
+ol {
+	color: #666666;
+}
+
+header #hero {
+	background-image: url('assets/images/mother-daughter-in-street.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 700px;
+}
+
+header #hero h2 {
+	color: #fff;
+	font-size: 45px;
+}
+
+header #hero p {
+	color: #CCC;
+}
+
+header #hero p.highlight.pink {
+	color: #fff;
+}
+
+header #nav-bar {
+	position: relative;
+	display: block;
+	min-height: 700px;
+}
+
+header .logo {
+	position: relative;
+    z-index: 10;
+}
+
+header .logo img {
+	max-height: none;
+}
+
+header nav {
+	width: 100%;
+}
+
+header nav ul li {
+	display: block;
+	width: 100%;
+}
+
+header nav ul li a {
+	color: #fff;
+	padding: 10px 20px;
+	font-family: "Choplin Medium";
+	font-size: 24px;
+}
+
+header #nav-bar .overlay {
+	background-color: #000;
+	opacity: 0.5;
+	display: block;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+}
+
+section#about {
+	background-color: #66d9cc;
+}
+
+section#about p {
+	color: #006666;
+}
+
+section#about h2 {
+	color: #fff;
+}
+
+section#pitch {
+	background-image: url('assets/images/woman-working-hard.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+section#pitch h2 {
+	color: #fff;
+	font-size: 45px;
+}
+
+section#schedule {
+	background-image: url('assets/images/empty-living-room-with-toys.jpg');
+	background-position: center 90%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+section#schedule h2 {
+	color: #fff;
+	font-size: 45px;
+}
+
+footer {
+	background-color: #cccccc;
+	color: #666666;
+}
+
+.button {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.button.huge {
+	font-size:24px;
+	padding: 20px 40px;
+}
+
+.button.pink {
+	color: #ff3399;
+	border-color: #ff3399;
+}
+
+.button.teal {
+	color: #66d9cc;
+	border-color: #66d9cc;
+}
+
+.special-message {
+	font-size: 30px;
+	line-height: 37px;
+}
+
+.highlight {
+	font-weight: 100;
+}
+
+.highlight.pink {
+	background-color: #ff3399;
+	box-shadow: 10px 0 0 #ff3399, -10px 0 0 #ff3399;
+	color: #fff;
+}
+
+.highlight.teal {
+	background-color: #66d9cc;
+	box-shadow: 10px 0 0 #66d9cc, -10px 0 0 #66d9cc;
+	color: #fff;
+}
+
+.highlight.grey {
+	background-color: #999999;
+	box-shadow: 10px 0 0 #999999, -10px 0 0 #999999;
+	color: #fff;
+}
+
+@media (max-width: 600px) {
+
+	#conference-details {
+		position: relative;
+	}
+
+}
