@@ -96,7 +96,7 @@
 				<div class="L W25 align-center">
 					<p><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/antonina-griffin.png" /></p>
 					<h4>Antonina Griffin</h4>
-					<p class="cushion-left-5 cushion-right-5">Motivational spaker featured on CBN</p>
+					<p class="cushion-left-5 cushion-right-5">Motivational speaker featured on CBN</p>
 				</div>
 				<div class="L W25 align-center">
 					<p><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tracey-wolfe.png" /></p>
