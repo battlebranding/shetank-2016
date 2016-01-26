@@ -43,7 +43,7 @@
 		</section>
 		<section id="pitch">
 			<div class="inner cushion-top-5 cushion-bottom-5 cushion-left-10 cushion-right-10">
-				<h2 class="highlight pink">One Pitch to win a $1500 Investment.</h2>
+				<h2 class="highlight pink">One Pitch to Win a $1500 Investment.</h2>
 				<p class="special-message highlight">
 					You’ve worked hard enough<br />
 					by yourself. Give yourself a financial<br />
