@@ -26,11 +26,10 @@
 							balance business and home
 						</p>
 						<h2>March 12th, 2016</h2>
-						<p>
+						<p id="location" class="special-message highlight dark-grey">
 							DoubleTree Hotel<br />
 							3030 W Gate City Blvd<br />
-							Greensboro, NC 27403
-						</p>
+							Greensboro, NC 27403</p>
 						<a class="button pink" href="#about">Learn More</a>
 					</div>
 				</div>
@@ -44,7 +43,7 @@
 		</section>
 		<section id="pitch">
 			<div class="inner cushion-top-5 cushion-bottom-5 cushion-left-10 cushion-right-10">
-				<h2 class="highlight pink">One Pitch. $1500 Investment.</h2>
+				<h2 class="highlight pink">One Pitch to win a $1500 Investment.</h2>
 				<p class="special-message highlight">
 					You’ve worked hard enough<br />
 					by yourself. Give yourself a financial<br />
@@ -55,7 +54,7 @@
 		<section id="pitch-details">
 			<div class="inner cushion-left-25 cushion-right-25 cushion-top-5 cushion-bottom-5">
 				<h2 class="align-center pink">Pitch Your Idea</h2>
-				<p>Do you have a great business idea and could use an investment? If you want your business idea to be heard in front of the “ShePanel” for a chance to win $1500, just e-mail your 2-minute video by February 19, 2016 to info@shetank.com discussing your business or idea. Keep the following things in mind:</p>
+				<p>Do you have a great business idea and could use an investment? If you want your business idea to be heard in front of the “ShePanel” for a chance to win $1500, just e-mail your 2-minute video by February 26, 2016 to info@shetank.com discussing your business or idea. Keep the following things in mind:</p>
 				<ol>
 					<li>Video must be 2-minutes or less</li>
 					<li>No late submissions accepted</li>
@@ -106,7 +105,12 @@
 				</div>
 			</div>
 			<div id="register" class="inner cushion-top-5 cushion-bottom-5">
-				<p class="align-center"><a class="button huge teal" href="#">Register Today</a></p>
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="PPJZK8GA8YJJA">
+					<p class="align-center"><button type="submit" class="button huge teal" href="#">Register Today</button></p>
+				</form>
+				<p class="align-center">Registration and pitch contest submissions end February 26, 2016.</p>
 			</div>
 		</section>
 		<footer id="contact" class="align-center">

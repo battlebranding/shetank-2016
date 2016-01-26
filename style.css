@@ -66,10 +66,6 @@ header #hero h2 {
 	font-size: 45px;
 }
 
-header #hero p {
-	color: #CCC;
-}
-
 header #hero p.highlight.pink {
 	color: #fff;
 }
@@ -105,7 +101,7 @@ header nav ul li a {
 	font-size: 24px;
 }
 
-header #nav-bar .overlay {
+header .overlay {
 	background-color: #000;
 	opacity: 0.5;
 	display: block;
@@ -113,6 +109,18 @@ header #nav-bar .overlay {
 	bottom: 0;
 	width: 100%;
 	position: absolute;
+}
+
+header #location {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: normal;
+	padding: 5px 10px;
+	display: block;
+}
+
+header #location:after {
+	content: none;
 }
 
 section#about {
@@ -203,6 +211,12 @@ footer {
 .highlight.grey {
 	background-color: #999999;
 	box-shadow: 10px 0 0 #999999, -10px 0 0 #999999;
+	color: #fff;
+}
+
+.highlight.dark-grey {
+	background-color: #333;
+	box-shadow: 10px 0 0 #333, -10px 0 0 #333;
 	color: #fff;
 }
 
