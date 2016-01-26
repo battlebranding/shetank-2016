@@ -38,7 +38,7 @@
 		<section id="about">
 			<div class="inner cushion-left-25 cushion-right-25 cushion-top-5 cushion-bottom-5">
 				<h2 class="align-center">What is SheTank?</h2>
-				<p>It’s no secret that women face some of the greatest barriers to entry in the workplace and for the woman who has children, student loans, juggling home and work, resources are limited. SheTank is a one-day think tank to help aspiring women entrepreneurs learn how to successfully start or grow their businesses, while balancing other responsibilities. Filled with exciting speakers, fun activities and even an business picth contest, SheTank is the support you’ve been waiting for.</p>
+				<p>It’s no secret that women face some of the greatest barriers to entry in the workplace and for the woman who has children, student loans, juggling home and work, resources are limited. SheTank is a one-day think tank to help aspiring women entrepreneurs learn how to successfully start or grow their businesses, while balancing other responsibilities. Filled with exciting speakers, fun activities and even an business pitch contest, SheTank is the support you’ve been waiting for.</p>
 			</div>
 		</section>
 		<section id="pitch">
